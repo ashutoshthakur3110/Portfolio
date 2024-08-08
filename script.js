@@ -43,3 +43,10 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+document.querySelector('.form-container form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    // Form submission logic (e.g., AJAX request)
+    alert('Form submitted successfully!');
+  });
+  
